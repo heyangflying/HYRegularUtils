@@ -5,7 +5,7 @@
 //  Created by heyang on 16/6/20.
 //  Copyright © 2016年 heyang. All rights reserved.
 //
-
+#import "HYRegularUtils.h"
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

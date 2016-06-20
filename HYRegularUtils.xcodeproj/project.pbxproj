@@ -15,6 +15,7 @@
 		1886EA331D17951900AB6B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1886EA311D17951900AB6B65 /* LaunchScreen.storyboard */; };
 		1886EA3E1D17951900AB6B65 /* HYRegularUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886EA3D1D17951900AB6B65 /* HYRegularUtilsTests.m */; };
 		1886EA491D17951900AB6B65 /* HYRegularUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886EA481D17951900AB6B65 /* HYRegularUtilsUITests.m */; };
+		1886EA5A1D17954100AB6B65 /* HYRegularUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886EA591D17954100AB6B65 /* HYRegularUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1886EA441D17951900AB6B65 /* HYRegularUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYRegularUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1886EA481D17951900AB6B65 /* HYRegularUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRegularUtilsUITests.m; sourceTree = "<group>"; };
 		1886EA4A1D17951900AB6B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1886EA581D17954100AB6B65 /* HYRegularUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRegularUtils.h; sourceTree = "<group>"; };
+		1886EA591D17954100AB6B65 /* HYRegularUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRegularUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,8 @@
 		1886EA221D17951900AB6B65 /* HYRegularUtils */ = {
 			isa = PBXGroup;
 			children = (
-				1886EA261D17951900AB6B65 /* AppDelegate.h */,
-				1886EA271D17951900AB6B65 /* AppDelegate.m */,
-				1886EA291D17951900AB6B65 /* ViewController.h */,
-				1886EA2A1D17951900AB6B65 /* ViewController.m */,
-				1886EA2C1D17951900AB6B65 /* Main.storyboard */,
-				1886EA2F1D17951900AB6B65 /* Assets.xcassets */,
-				1886EA311D17951900AB6B65 /* LaunchScreen.storyboard */,
-				1886EA341D17951900AB6B65 /* Info.plist */,
+				1886EA571D17952100AB6B65 /* HYRegularUtils */,
+				1886EA561D17951F00AB6B65 /* New Group */,
 				1886EA231D17951900AB6B65 /* Supporting Files */,
 			);
 			path = HYRegularUtils;
@@ -138,6 +135,30 @@
 				1886EA4A1D17951900AB6B65 /* Info.plist */,
 			);
 			path = HYRegularUtilsUITests;
+			sourceTree = "<group>";
+		};
+		1886EA561D17951F00AB6B65 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1886EA261D17951900AB6B65 /* AppDelegate.h */,
+				1886EA271D17951900AB6B65 /* AppDelegate.m */,
+				1886EA291D17951900AB6B65 /* ViewController.h */,
+				1886EA2A1D17951900AB6B65 /* ViewController.m */,
+				1886EA2C1D17951900AB6B65 /* Main.storyboard */,
+				1886EA2F1D17951900AB6B65 /* Assets.xcassets */,
+				1886EA311D17951900AB6B65 /* LaunchScreen.storyboard */,
+				1886EA341D17951900AB6B65 /* Info.plist */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		1886EA571D17952100AB6B65 /* HYRegularUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1886EA581D17954100AB6B65 /* HYRegularUtils.h */,
+				1886EA591D17954100AB6B65 /* HYRegularUtils.m */,
+			);
+			name = HYRegularUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +294,7 @@
 				1886EA2B1D17951900AB6B65 /* ViewController.m in Sources */,
 				1886EA281D17951900AB6B65 /* AppDelegate.m in Sources */,
 				1886EA251D17951900AB6B65 /* main.m in Sources */,
+				1886EA5A1D17954100AB6B65 /* HYRegularUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
